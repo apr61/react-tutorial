@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: serif;
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.container h2{
+  font-size: 2rem;
+}
+
+.button-group{
+  display: flex;
+  gap: 2rem;
+}
+
+.button-group button{
+  border: none;
+  padding: 1rem 2rem;
+  background-color: hsl(233, 50%, 50%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.button-group button:hover{
+  background-color: hsl(233, 50%, 30%);
+}
+
+.result{
+  max-width: 40rem;
+}
